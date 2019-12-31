@@ -1,0 +1,50 @@
+{
+  "name": "standard-node-template",
+  "version": "0.0.0",
+  "description": "Standard Node.js template using ember-cli-update",
+  "main": "index.js",
+  "files": [
+    "files",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext js,json",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/standard-node-template.git"
+  },
+  "keywords": [
+    "ember-blueprint"
+  ],
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/standard-node-template/issues"
+  },
+  "homepage": "https://github.com/kellyselden/standard-node-template#readme",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-fs": "^2.0.0",
+    "ember-cli": "^3.15.1",
+    "ember-cli-update": "0.47.16",
+    "eslint": "^6.8.0",
+    "eslint-config-sane": "0.8.5",
+    "eslint-config-sane-node": "0.2.2",
+    "eslint-plugin-json-files": "0.8.0",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prefer-let": "^1.0.1",
+    "execa": "^3.4.0",
+    "git-diff-apply": "0.20.1",
+    "git-fixtures": "^2.1.6",
+    "mocha": "^6.2.2",
+    "mocha-helpers": "^4.2.1",
+    "renovate-config-standard": "^2.0.0",
+    "tmp": "0.1.0"
+  }
+}
