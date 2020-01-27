@@ -17,6 +17,9 @@ jobs:
   - if: branch = master AND type = pull_request
     name: ember-cli-update
     script:
+    # support the base blueprint with location "."
+    - git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+
     - git checkout $TRAVIS_PULL_REQUEST_SHA
     - git checkout -B $TRAVIS_PULL_REQUEST_BRANCH
     - git remote set-url origin https://$GITHUB_TOKEN@github.com/$TRAVIS_PULL_REQUEST_SLUG.git
