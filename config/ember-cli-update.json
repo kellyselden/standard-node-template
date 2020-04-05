@@ -29,7 +29,8 @@
           "name": "@kellyselden/node-template",
           "options": [
             "--repo-slug=kellyselden/standard-node-template",
-            "--travis-ci"
+            "--travis-ci",
+            "--renovate"
           ]
         }
       ]
