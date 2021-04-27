@@ -3,7 +3,6 @@
   "packages": [
     {
       "name": "standard-node-template",
-      "location": ".",
       "version": "1.0.0",
       "blueprints": [
         {
