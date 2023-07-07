@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/kellyselden/standard-node-template#readme",
   "engines": {
-    "node": ">=14.15"
+    "node": ">=16.13"
   },
   "devDependencies": {
     "@kellyselden/node-template": "3.1.0",
@@ -42,6 +42,6 @@
     "mocha": "^10.2.0",
     "mocha-helpers": "^7.1.0",
     "renovate-config-standard": "2.1.2",
-    "standard-node-template": "3.2.1"
+    "standard-node-template": "3.3.0"
   }
 }
