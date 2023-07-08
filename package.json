@@ -4,7 +4,8 @@
   "description": "Standard Node.js template using ember-cli-update",
   "main": "index.js",
   "files": [
-    "files"
+    "files",
+    "files/.npmrc"
   ],
   "scripts": {
     "lint": "eslint . --ext js,json",
