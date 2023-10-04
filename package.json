@@ -1,6 +1,6 @@
 {
   "name": "standard-node-template",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Standard Node.js template using ember-cli-update",
   "main": "index.js",
   "files": [
