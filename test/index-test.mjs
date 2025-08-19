@@ -1,12 +1,17 @@
-'use strict';
-
-const { describe } = require('./helpers/mocha');
-const { expect } = require('./helpers/chai');
-const path = require('path');
-const {
-  emberInit: _emberInit,
+import mocha from './helpers/mocha.cjs';
+import chai from './helpers/chai.mjs';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import {
+  emberInit as _emberInit,
   setUpBlueprintMocha
-} = require('ember-cli-update-test-helpers');
+} from 'ember-cli-update-test-helpers';
+
+const { describe, it } = mocha;
+const { expect } = chai;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const fixturesPath = path.resolve(__dirname, 'fixtures');
 
