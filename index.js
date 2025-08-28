@@ -10,7 +10,7 @@ module.exports = {
 
     return {
       name,
-      encodedName
+      encodedName,
     };
-  }
+  },
 };

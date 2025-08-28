@@ -5,19 +5,19 @@ const { expect } = require('./helpers/chai');
 const path = require('path');
 const {
   emberInit: _emberInit,
-  setUpBlueprintMocha
+  setUpBlueprintMocha,
 } = require('ember-cli-update-test-helpers');
 
 const fixturesPath = path.resolve(__dirname, 'fixtures');
 
 async function emberInit({
-  args = []
+  args = [],
 }) {
   return await _emberInit({
     args: [
       '-sn',
-      ...args
-    ]
+      ...args,
+    ],
   });
 }
 
@@ -33,8 +33,8 @@ describe(function() {
         '-b',
         this.blueprintPath,
         '--name',
-        '@my-scope/my-project'
-      ]
+        '@my-scope/my-project',
+      ],
     });
 
     expect(path.join(cwd, 'README.md'))
