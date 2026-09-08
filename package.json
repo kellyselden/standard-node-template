@@ -30,7 +30,7 @@
     "chai": "^4.5.0",
     "chai-fs": "^2.0.0",
     "ember-cli-blueprint": "0.1.7",
-    "ember-cli-update-test-helpers": "^6.0.0",
+    "ember-cli-update-test-helpers": "^7.0.0",
     "eslint": "^9.34.0",
     "mocha": "^11.7.1",
     "mocha-helpers": "^10.2.1",
